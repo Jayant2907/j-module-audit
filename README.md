@@ -1,6 +1,8 @@
 # j-module-audit
 
-An agent skill for a **field-by-field conformance audit of a whole module**. Where `j-QA` goes deep on a git diff, this walks every screen of one module and proves every user-visible field.
+> **Agent Harness** — a field-level module audit harness for Cursor and Claude Code.
+
+A **field-level audit harness** for whole-module conformance. Where `j-QA` goes deep on a git diff, this walks every screen of one module and proves every user-visible field.
 
 Compatible with **Claude Code** and **Cursor** (both use a `SKILL.md` skill folder). Needs a **running app**, browser tools, and Python if you generate the Excel workbook.
 
@@ -101,3 +103,16 @@ j-module-audit/
     ├── columns.md
     └── negative-battery.md
 ```
+
+## Agent Harness collection
+
+Part of the **Agent Harness** suite by [@Jayant2907](https://github.com/Jayant2907) — installable skills that wrap structured agent workflows (review harnesses, QA harnesses, impact sweeps) for Cursor and Claude Code.
+
+| Harness | Role |
+|---|---|
+| [adversarial-review](https://github.com/Jayant2907/adversarial-review) | Merge-review harness |
+| [p-code-review](https://github.com/Jayant2907/p-code-review) | Whole-codebase review harness |
+| [feature-impact-sweep](https://github.com/Jayant2907/feature-impact-sweep) | Cross-cutting impact harness |
+| [j-QA](https://github.com/Jayant2907/j-QA) | Manual UI QA harness |
+| [j-user-readiness](https://github.com/Jayant2907/j-user-readiness) | Visual demo-readiness harness |
+| [j-module-audit](https://github.com/Jayant2907/j-module-audit) | Field-level module audit harness (this repo) |
